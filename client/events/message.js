@@ -7,6 +7,7 @@ const config = require('../../config/config.json');
 
 module.exports = async msg => {
     if (!msg.content.startsWith(config.commands.prefix) || msg.author.bot) return;
+    const command = args.shift().slice(config.prefix.length);
     try {
         command = require(`../../commands/${command}.js`);
     } catch {
