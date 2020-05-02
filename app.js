@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 const secrets = require("./config/secrets.json");
 
-require('./handlers/handler.js')(bot);
+require('./client/handler.js')(bot);
 
 client.once('ready', () => {
 	console.log('Ready!');
