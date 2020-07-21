@@ -1,4 +1,3 @@
-const Discord = require('discord.js');
 const config = require('../config/config.json');
 const dictionary = require('../config/dictionary.json');
 

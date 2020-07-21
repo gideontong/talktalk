@@ -1,0 +1,30 @@
+{
+    "name": "talktalk",
+    "version": "1.0.0",
+    "description": "A Discord bot for podcasters",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node app.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gideontong/talktalk.git"
+    },
+    "keywords": [
+        "bot",
+        "digital assisstant",
+        "podcasting"
+    ],
+    "license": "MIT",
+    "bugs": "https://github.com/gideontong/talktalk/issues",
+    "homepage": "https://smhourheads.com",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "log4js": "^6.3.0"
+    },
+    "devDependencies": {
+        "jest": "^26.1.0"
+    }
+}

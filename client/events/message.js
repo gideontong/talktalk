@@ -1,8 +1,3 @@
-// Event Listener for Messages
-// Author: Gideon Tong
-// 2020 May 01
-
-const Discord = require('discord.js');
 const config = require('../../config/config.json');
 
 module.exports = async msg => {
