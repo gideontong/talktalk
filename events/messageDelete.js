@@ -1,7 +1,7 @@
 const { commands, logger } = require('../config/config.json');
 
 const { MessageEmbed } = require('discord.js');
-const log = require('log4js').getLogger('church');
+const log = require('log4js').getLogger('podcast');
 
 module.exports = async msg => {
     if (msg.author.bot || msg.content.startsWith(commands.prefix)) return;
