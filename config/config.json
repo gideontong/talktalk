@@ -4,5 +4,8 @@
     },
     "commands": {
         "prefix": "!"
+    },
+    "links": {
+        "contact": "https://discord.gg/WUGMTcZ"
     }
 }
