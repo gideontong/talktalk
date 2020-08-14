@@ -7,5 +7,9 @@
     },
     "links": {
         "contact": "https://discord.gg/WUGMTcZ"
+    },
+    "logger": {
+        "guild": "548523285172715550",
+        "channel": "735272343773118504"
     }
 }
